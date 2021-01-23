@@ -39,7 +39,7 @@
         }
     },
     "files.insertFinalNewline": true,
-    "python.pythonPath": ".venv/bin/python3.9",
+    "python.pythonPath": "/Users/deo/.local/share/virtualenvs/deo-algo-gTpK5afc/bin/python",
     "python.testing.pytestArgs": [
         "tests"
     ],
