@@ -13,9 +13,8 @@ jobs:
           fetch-depth: 0
       - uses: actions/setup-node@v1
         with:
-          node-version: 10.20.1
+          node-version: 10.22.0
       - name: Show current changelog
         run: |
-          npm install yarn
-          yarn install
+          npm ci
           make current_changelog

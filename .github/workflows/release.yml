@@ -18,7 +18,7 @@ jobs:
           fetch-depth: 0
       - uses: actions/setup-node@v1
         with:
-          node-version: 10.20.1
+          node-version: 10.22.0
       - uses: actions/setup-python@v1
         with:
           python-version: 3.9
