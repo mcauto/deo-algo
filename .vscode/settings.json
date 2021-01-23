@@ -1,0 +1,48 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/.mypy_cache": true,
+        "**/.benchmarks": true,
+        "**/.venv": true,
+        "**/node_modules": true,
+        "**/public": true,
+        "**/.pytest_cache": true,
+        "**/__pycache__": true
+    },
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "editor.formatOnSave": true,
+    "python.envFile": "${workspaceFolder}/.env",
+    "python.testing.pytestEnabled": true,
+    "python.linting.enabled": true,
+    "python.linting.lintOnSave": true,
+    "python.linting.mypyEnabled": true,
+    "python.linting.pycodestyleArgs": [
+        "--max-line-length=80"
+    ],
+    "python.linting.pycodestyleEnabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "-l",
+        "80"
+    ],
+    "editor.fontFamily": "D2Coding",
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    "files.insertFinalNewline": true,
+    "python.pythonPath": ".venv/bin/python3.9",
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.nosetestsEnabled": false
+}

@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+
+[dev-packages]
+# test libarary
+# required module: libsqlite3-dev
+pytest = "*" 
+pytest-env = "*"
+pytest-cov = "*"
+pytest-asyncio = "*"
+tox = "*"
+# for fastapi testclient
+requests ="*"
+# lint library
+mypy = "*"
+pycodestyle = "*"
+pylint = "*"
+# 19.10b0 설치 호환 버그로 version fixed
+black = "==19.3b0"
+
+[requires]
+python_version = "3.9"
