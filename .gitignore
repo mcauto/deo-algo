@@ -17,3 +17,5 @@ cov.xml
 
 # coverage page
 public
+
+.DS_Store

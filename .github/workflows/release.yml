@@ -33,7 +33,9 @@ jobs:
           git config --local user.name "GitHub Action"
           VERSION=$(npx next-standard-version)
           _DESCRIPTION=$(npx standard-version --dry-run --silent | grep -v yarn | grep -v Done | grep -v "\-\-\-" | grep -v standard-version)
-          echo >>$GITHUB_ENV _DESCRIPTION=$_DESCRIPTION
+          echo "DESCRIPTION<<EOF" >> $GITHUB_ENV
+          echo "$_DESCRIPTION" >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
           echo >>$GITHUB_ENV VERSION=$VERSION
           npm run release
       - name: Push changes
