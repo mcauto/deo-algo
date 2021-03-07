@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/Nexters-Algorithm-Study/deo_algorythm/compare/v1.1.0...v1.2.0) (2021-03-07)
+
+
+### Features
+
+* **backjoon:** 완전탐색 14888 문제 ([#6](https://github.com/Nexters-Algorithm-Study/deo_algorythm/issues/6)) ([6f7996b](https://github.com/Nexters-Algorithm-Study/deo_algorythm/commit/6f7996b4e41d3f28f44bc3b76e1ed58c2e38a9ef))
+
 ## 1.1.0 (2021-01-26)
 
 
