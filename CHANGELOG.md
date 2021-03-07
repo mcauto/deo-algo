@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/Nexters-Algorithm-Study/deo_algorythm/compare/v1.2.0...v1.3.0) (2021-03-07)
+
+
+### Features
+
+* **codility:** binary gap ([230d5ae](https://github.com/Nexters-Algorithm-Study/deo_algorythm/commit/230d5ae10143d0ec5e807145b287b34e68353df1))
+* **codility:** cyclic rotation ([f387d61](https://github.com/Nexters-Algorithm-Study/deo_algorythm/commit/f387d610b25dc5222ec1fc3a72ac6091ac306996))
+* **codility:** odd occurrences in array ([80980fa](https://github.com/Nexters-Algorithm-Study/deo_algorythm/commit/80980fae28975efe2f1f02969321a0549d76c9ad))
+
+
+### Bug Fixes
+
+* **ci:** release description 수정 ([792d83b](https://github.com/Nexters-Algorithm-Study/deo_algorythm/commit/792d83bd6ab1b497f7b2d4de0e4fdd2c5dd2fc76))
+
 ## [1.2.0](https://github.com/Nexters-Algorithm-Study/deo_algorythm/compare/v1.1.0...v1.2.0) (2021-03-07)
 
 
