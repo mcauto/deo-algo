@@ -31,12 +31,12 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          VERSION=$(npx next-standard-version)
-          _DESCRIPTION=$(npx standard-version --dry-run --silent | grep -v yarn | grep -v Done | grep -v "\-\-\-" | grep -v standard-version)
+          export VERSION=$(npx next-standard-version)
+          export DESCRIPTION=$(npx standard-version --dry-run --silent | grep -v yarn | grep -v Done | grep -v "\-\-\-" | grep -v standard-version)
           echo "DESCRIPTION<<EOF" >> $GITHUB_ENV
-          echo "$_DESCRIPTION" >> $GITHUB_ENV
+          echo "$DESCRIPTION" >> $GITHUB_ENV
           echo "EOF" >> $GITHUB_ENV
-          echo >>$GITHUB_ENV VERSION=$VERSION
+          echo "VERSION=$VERSION" >> $GITHUB_ENV 
           npm run release
       - name: Push changes
         uses: ad-m/github-push-action@master
@@ -52,6 +52,6 @@ jobs:
           tag_name: v${{ env.VERSION }}
           release_name: Release v${{ env.VERSION }}
           body: |
-            ${{ env._DESCRIPTION }}
+            ${{ env.DESCRIPTION }}
           draft: false
           prerelease: false
