@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/Nexters-Algorithm-Study/deo_algorythm/compare/v1.3.0...v1.4.0) (2021-03-08)
+
+
+### Features
+
+* **codility:** frog jump ([1763673](https://github.com/Nexters-Algorithm-Study/deo_algorythm/commit/17636735a605a7f0552c462506551122f9eb796f))
+* **codility:** frog river one ([ed82a99](https://github.com/Nexters-Algorithm-Study/deo_algorythm/commit/ed82a9964e74ab2f257549e50148922363223f10))
+* **codility:** perm missing elem ([eaa60f4](https://github.com/Nexters-Algorithm-Study/deo_algorythm/commit/eaa60f40efc2d059f7b22a12b0457e8574d465eb))
+* **codility:** tape equilibrium ([bf4192f](https://github.com/Nexters-Algorithm-Study/deo_algorythm/commit/bf4192fc774ebefa364c20d24a34ffd9f3e4bd38))
+
 ## [1.3.0](https://github.com/Nexters-Algorithm-Study/deo_algorythm/compare/v1.2.0...v1.3.0) (2021-03-07)
 
 
